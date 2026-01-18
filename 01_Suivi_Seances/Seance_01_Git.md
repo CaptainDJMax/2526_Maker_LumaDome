@@ -33,7 +33,7 @@ Suite au brainstorming, j'ai validé le concept de mon projet :
 * **Fonctionnalités visées :** Affichage de messages défilants, animations lumineuses, structure imprimée en 3D et cadre découpé au laser.
 
 ## ✅ Tâches effectuées
-- [x] Création du compte GitHub et du dépôt public.
-- [x] Ajout du fichier `.gitignore` pour filtrer les fichiers inutiles.
-- [x] Mise en place de l'arborescence des dossiers.
-- [x] Mise en place du rétroplanning.
+- [ ] Création du compte GitHub et du dépôt public.
+- [ ] Ajout du fichier `.gitignore` pour filtrer les fichiers inutiles.
+- [ ] Mise en place de l'arborescence des dossiers.
+- [ ] Mise en place du rétroplanning.
