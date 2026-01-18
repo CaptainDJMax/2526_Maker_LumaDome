@@ -8,7 +8,7 @@ Au-delà de l'esthétique, l'objectif est de créer une interface lumineuse capa
 * Diffuser des **messages personnalisés** envoyés en Bluetooth depuis un smartphone.
 * Être totalement **nomade** grâce à une batterie intégrée.
 
-🔗 **Lien vers la présentation complète :** [Insérer le lien ici plus tard]
+
 
 
 
@@ -20,7 +20,7 @@ Ce projet mobilise 4 axes principaux :
 4.  **Habillage :** Travail du textile (Couture) pour la diffusion de la lumière.
 
 
-##  Rétroplanning Prévisionnel
+##  Rétroplanning Prévisionnel 🔗[02_Gestion_Projet/RetroPlanning.md]
 
 Ce planning s'aligne sur les séances de formation technique du semestre.
 
