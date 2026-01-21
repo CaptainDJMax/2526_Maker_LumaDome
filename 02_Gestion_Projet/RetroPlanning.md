@@ -62,7 +62,7 @@ Ce planning respecte les jalons imposés par l'Option Maker.
 | État | Date | Thème | Tâches LumaDome à valider |
 | :---: | :--- | :--- | :--- |
 | [x] | **Jeu 15 Janv** | **Git** | Initialisation Repo, Arborescence, Idée validée. |
-| [ ] | **Lun 19 Janv** | **CAD** | **LIVRABLE :** Plans 3D de la base (Logement élec). |
+| [x] | **Lun 19 Janv** | **CAD** | **LIVRABLE :** Plans 3D de la base (Logement élec). |
 | [ ] | **Jeu 22 Janv** | **3D Print** | Lancement impression Base V1 (PLA). |
 | [ ] | **Lun 26 Janv** | **Laser** | Découpe du squelette du dôme (Medium/Plexi). |
 | [ ] | **Jeu 29 Janv** | **PCB (1)** | Schématique électronique terminée sur KiCad. |
