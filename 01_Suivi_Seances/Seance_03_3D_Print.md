@@ -41,7 +41,18 @@ Cette séance est critique pour la fabrication de la base de ma lampe.
     * Utilisation de **supports "Tree"** uniquement pour les ouvertures (Port USB-C et passage bouton).
     * **Intégration :** Je vais prévoir des plots avec des trous pour insérer des écrous à chaud (heat set inserts) afin de visser le PCB proprement.
 
+### Réalisation Pratique : Support de Téléphone
+Pour valider les compétences de la séance (Paramétrage du Slicer + Lancement machine), j'ai réalisé l'impression d'un support pour téléphone.
+
+**Détails de l'impression :**
+* **Matériau :** PLA (Matériau standard du Labo).
+* **Paramètres Slicer :**
+    * Support : quelque support en forme de tree.
+
+![Photo du support de téléphone](../06_Documentation/Images/Support_Telephone.jpg)
+
 ##  Tâches effectuées
 - [x] Découverte des imprimantes du Labo (Creality, Bambu Lab).
 - [x] Configuration du Slicer (taille de buse 0.4mm, Température 210°C).
+- [x] Lancement  impression test support de téléphone.
 - [ ] Lancement de la première impression test (Base LumaDome V1).
