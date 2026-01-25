@@ -49,7 +49,7 @@ Pour valider les compétences de la séance (Paramétrage du Slicer + Lancement 
 * **Paramètres Slicer :**
     * Support : quelque support en forme de tree.
 
-![Photo du support de téléphone](../06_Documentation/Images/Support_Telephone.jpg)
+![Photo du support de téléphone](../06_Documentation/Images/Exo_Impression/Support_Telephone.jpg)
 
 ##  Tâches effectuées
 - [x] Découverte des imprimantes du Labo (Creality, Bambu Lab).
