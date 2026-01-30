@@ -36,7 +36,7 @@ Après la sortie du four, nous avons terminé la carte manuellement :
 
 ![Photo de notre PCB assemblé](../06_Documentation/Images/Exo_PCB/PCB_Seance5.jpg)
 
-## 💡 Notes importantes pour le Projet LumaDome
+## Notes importantes pour le Projet LumaDome
 
 ### Électronique (BOM)
 Pour la commande des composants de mon projet personnel :
