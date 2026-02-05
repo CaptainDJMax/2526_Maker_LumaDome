@@ -1686,10 +1686,10 @@
 		(uuid "48189968-2b93-44bf-bfd2-2bb33543139f")
 	)
 	(junction
-		(at 62.23 25.4)
+		(at 55.88 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b16c1d03-a694-4566-9891-19988826c9b7")
+		(uuid "5485f41d-8ff6-451e-841d-526d94f5ffa9")
 	)
 	(junction
 		(at 39.37 78.74)
@@ -1713,7 +1713,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 22.86) (xy 62.23 25.4)
+			(xy 55.88 22.86) (xy 55.88 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1743,16 +1743,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 25.4) (xy 62.23 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c667976-d4e1-4847-b0fd-e296211159f4")
-	)
-	(wire
-		(pts
 			(xy 69.85 44.45) (xy 73.66 44.45)
 		)
 		(stroke
@@ -1773,7 +1763,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 46.99) (xy 91.44 46.99)
+			(xy 90.17 46.99) (xy 91.44 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1783,7 +1773,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 25.4) (xy 62.23 38.1)
+			(xy 55.88 25.4) (xy 55.88 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1853,7 +1843,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 38.1) (xy 54.61 38.1)
+			(xy 55.88 38.1) (xy 54.61 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1993,6 +1983,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 25.4) (xy 59.69 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da681f01-0db0-447b-8247-f12136a26984")
+	)
+	(wire
+		(pts
 			(xy 54.61 45.72) (xy 62.23 45.72)
 		)
 		(stroke
@@ -2041,16 +2041,6 @@
 		)
 		(uuid "821ea716-7445-4d54-8b68-11f348fccbf7")
 	)
-	(label "V_USB"
-		(at 62.23 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "90a8e97f-0afb-450c-a051-bdc9bafb0154")
-	)
 	(label "D+"
 		(at 96.52 55.88 0)
 		(effects
@@ -2071,16 +2061,6 @@
 		)
 		(uuid "df3939b5-a348-4180-bbb4-2e67fe080883")
 	)
-	(label "V_USB"
-		(at 85.09 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd6b74cd-466e-4cf2-9865-a5f8827ccd15")
-	)
 	(hierarchical_label "USB_DP"
 		(shape input)
 		(at 86.36 53.34 180)
@@ -2091,6 +2071,28 @@
 			(justify right)
 		)
 		(uuid "33629b1f-2886-4a61-b951-4695316f9d2b")
+	)
+	(hierarchical_label "V_USB"
+		(shape input)
+		(at 55.88 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "716c7494-51ec-4f2a-a57d-adf6bedd3a52")
+	)
+	(hierarchical_label "V_USB"
+		(shape input)
+		(at 90.17 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d065d856-6506-4a9f-92d4-b733d4343ca0")
 	)
 	(hierarchical_label "USB_DM"
 		(shape input)
@@ -2191,7 +2193,7 @@
 		(dnp no)
 		(uuid "2e1d750f-02d5-4249-9126-8deaa28f511b")
 		(property "Reference" "C5"
-			(at 51.816 27.178 0)
+			(at 62.738 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2200,7 +2202,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 49.276 28.956 0)
+			(at 61.468 28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2344,7 +2346,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 62.23 22.86 0)
+		(at 55.88 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2353,7 +2355,7 @@
 		(fields_autoplaced yes)
 		(uuid "5103e0ea-2713-469c-9b9b-a1e6eeb45d05")
 		(property "Reference" "#PWR01"
-			(at 62.23 26.67 0)
+			(at 55.88 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,7 +2364,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 62.23 17.78 0)
+			(at 55.88 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,7 +2372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 22.86 0)
+			(at 55.88 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2379,7 +2381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 22.86 0)
+			(at 55.88 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2388,7 +2390,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 62.23 22.86 0)
+			(at 55.88 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)

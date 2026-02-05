@@ -11,544 +11,6 @@
 		(comment 1 "Maxime RAMBARANE-BARAT")
 	)
 	(lib_symbols
-		(symbol "Interface_USB:CH334F"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "CH334F"
-				(at 2.54 27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
-				(at -30.48 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.wch-ic.com/downloads/file/327.html"
-				(at 0 33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "USB HUB controller, QFN-24"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "USB HUB Controller Interface"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "QFN*4x4mm*P0.5mm*EP2.7x2.7mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CH334F_0_1"
-				(rectangle
-					(start -10.16 25.4)
-					(end 10.16 -25.4)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "CH334F_1_1"
-				(pin bidirectional line
-					(at -12.7 15.24 0)
-					(length 2.54)
-					(name "DPU+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 12.7 0)
-					(length 2.54)
-					(name "DMU-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 7.62 0)
-					(length 2.54)
-					(name "LED4/SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "LED3/SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "LED2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "LED1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "~{RESET}/CDP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -7.62 0)
-					(length 2.54)
-					(name "~{OVCUR}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -12.7 -10.16 0)
-					(length 2.54)
-					(name "~{PWREN}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -12.7 0)
-					(length 2.54)
-					(name "PSELF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -17.78 0)
-					(length 2.54)
-					(name "XO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -22.86 0)
-					(length 2.54)
-					(name "XI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -2.54 27.94 270)
-					(length 2.54)
-					(name "VDD33_{LDO}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "VDD33" power_in line)
-				)
-				(pin power_in line
-					(at 0 -27.94 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 27.94 270)
-					(length 2.54)
-					(name "V5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 -20.32 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 -22.86 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 12.7 180)
-					(length 2.54)
-					(name "DM4-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 10.16 180)
-					(length 2.54)
-					(name "DP4+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "DM3-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "DP3+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "DM2-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "DP2+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "DM1-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -12.7 180)
-					(length 2.54)
-					(name "DP1+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -771,8 +233,8 @@
 		(uuid 28cc4ac5-6a9f-41d8-b580-169936e9f161)
 	)
 	(rectangle
-		(start 147.32 13.97)
-		(end 279.4 93.98)
+		(start 88.9 45.72)
+		(end 162.56 80.01)
 		(stroke
 			(width 0)
 			(type dash)
@@ -807,7 +269,7 @@
 	)
 	(text "USB HUB controller chips"
 		(exclude_from_sim no)
-		(at 164.084 16.51 0)
+		(at 105.664 48.26 0)
 		(effects
 			(font
 				(size 1.651 1.651)
@@ -1262,148 +724,8 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Interface_USB:CH334F")
-		(at 167.64 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebac2193-cf9f-4ebb-80fb-b8e1c9021834")
-		(property "Reference" "U1"
-			(at 169.7833 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CH334F"
-			(at 169.7833 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
-			(at 137.16 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.wch-ic.com/downloads/file/327.html"
-			(at 167.64 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB HUB controller, QFN-24"
-			(at 167.64 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "08f57179-a7be-49b0-a939-6f60ec13d3e6")
-		)
-		(pin "19"
-			(uuid "13e47207-d3ef-4e41-be51-418a447700cb")
-		)
-		(pin "17"
-			(uuid "595f3934-0171-49e2-9fcb-e0cedea1db59")
-		)
-		(pin "22"
-			(uuid "dd0c50e1-17f8-4b9b-9b28-bea6fe4d6d84")
-		)
-		(pin "23"
-			(uuid "e802594d-783e-405e-8532-70c4218d1e84")
-		)
-		(pin "9"
-			(uuid "a8da0a18-5f4a-435f-84b0-d8b9526988e1")
-		)
-		(pin "15"
-			(uuid "5bb28f70-5b5b-4721-8257-a221fd66d68f")
-		)
-		(pin "4"
-			(uuid "2f1ea4bb-4982-4e24-81d6-9e21b68a158b")
-		)
-		(pin "7"
-			(uuid "83f4ebad-c560-482a-8f47-62dc9ba12327")
-		)
-		(pin "5"
-			(uuid "81ffa958-744e-44df-bfc6-858d80f98906")
-		)
-		(pin "6"
-			(uuid "c4b7018b-aa89-41a5-a8e6-45fa85d52b63")
-		)
-		(pin "10"
-			(uuid "148ca3ea-ee87-424b-ade1-4d35ea7610e1")
-		)
-		(pin "3"
-			(uuid "c26fe133-bb26-4a20-91da-b9d97eb81109")
-		)
-		(pin "25"
-			(uuid "0b2e3d87-f046-4442-85d2-371db2bdd8aa")
-		)
-		(pin "13"
-			(uuid "ae432372-4e95-474f-a24a-0714d6bac406")
-		)
-		(pin "21"
-			(uuid "5ebc6700-0efc-4009-bb6c-842fcc151093")
-		)
-		(pin "20"
-			(uuid "685c0951-adfd-405f-8470-40fb1bdb1ace")
-		)
-		(pin "14"
-			(uuid "5b2513f4-1518-459f-85de-f4dc008183ec")
-		)
-		(pin "24"
-			(uuid "88cf0726-9fa5-48d9-857e-eaff00f83e01")
-		)
-		(pin "8"
-			(uuid "5ddedb8e-ffc1-456f-ada6-430cf61b55ca")
-		)
-		(pin "1"
-			(uuid "05f05827-2663-4a14-b4ef-3300e216ce1d")
-		)
-		(pin "16"
-			(uuid "cc4df445-540b-4f50-8103-9a19a194adec")
-		)
-		(pin "12"
-			(uuid "a173fabc-ceba-4240-ac42-5ca4d72195fd")
-		)
-		(pin "11"
-			(uuid "4be56dd5-9c6f-495c-b5da-008f2f82303a")
-		)
-		(pin "18"
-			(uuid "a805ec9c-f4a7-4fe6-8348-9dc664aa7fbf")
-		)
-		(instances
-			(project ""
-				(path "/7e321a74-9d7c-485f-8c03-6a7893ec6c14"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
-		(at 151.13 104.14)
+		(at 93.98 54.61)
 		(size 60.96 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1419,7 +741,7 @@
 		)
 		(uuid "741c0739-edde-4ebd-8b3c-84b40660bc71")
 		(property "Sheetname" "USB HUB controller"
-			(at 151.13 103.4284 0)
+			(at 93.98 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,7 +750,7 @@
 			)
 		)
 		(property "Sheetfile" "USB_HUB_controller .kicad_sch"
-			(at 151.13 123.7746 0)
+			(at 93.98 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1446,7 +768,7 @@
 	)
 	(sheet
 		(at 25.4 91.44)
-		(size 33.02 15.24)
+		(size 33.02 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1470,7 +792,7 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 25.4 107.2646 0)
+			(at 25.4 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,9 +800,9 @@
 				(justify left top)
 			)
 		)
-		(pin "USB_DM4" input
-			(at 58.42 96.52 0)
-			(uuid "2b356c1e-5f29-4e52-a62e-313b782c5bac")
+		(pin "USB_DM" input
+			(at 58.42 99.06 0)
+			(uuid "d0f0edc7-ad05-47fe-893b-9d336cc58977")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1488,9 +810,19 @@
 				(justify right)
 			)
 		)
-		(pin "USB_DP4" input
-			(at 58.42 99.06 0)
-			(uuid "114004c3-c106-4040-86ed-a8614271797e")
+		(pin "USB_DP" input
+			(at 58.42 101.6 0)
+			(uuid "db8455cf-8ff6-47ce-adbd-a7dbbd45bde7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_USB" input
+			(at 58.42 96.52 0)
+			(uuid "db7ec638-e784-4bb7-bf12-eeefbbdbfbeb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1508,7 +840,7 @@
 	)
 	(sheet
 		(at 25.4 69.85)
-		(size 33.02 15.24)
+		(size 33.02 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1532,7 +864,7 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 25.4 85.6746 0)
+			(at 25.4 84.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,9 +872,9 @@
 				(justify left top)
 			)
 		)
-		(pin "USB_DM3" input
-			(at 58.42 74.93 0)
-			(uuid "d4a0a302-628a-4d92-b1a0-f3fc6ecaafa0")
+		(pin "USB_DM" input
+			(at 58.42 77.47 0)
+			(uuid "99301b73-92d1-4316-9f9c-a0e7f9b98f95")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1550,9 +882,19 @@
 				(justify right)
 			)
 		)
-		(pin "USB_DP3" input
-			(at 58.42 77.47 0)
-			(uuid "4ee82b83-a09b-4385-9afe-2e49757b8942")
+		(pin "USB_DP" input
+			(at 58.42 80.01 0)
+			(uuid "62d97291-4dfe-4033-8d5f-125f015cfd5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_USB" input
+			(at 58.42 74.93 0)
+			(uuid "bd0314de-fc2c-4248-8032-8525b08b0843")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1602,9 +944,9 @@
 				(justify left top)
 			)
 		)
-		(pin "USB_DM1" input
-			(at 58.42 31.75 0)
-			(uuid "54b4bb09-44da-46db-bd24-1a8f61adfff9")
+		(pin "USB_DM" input
+			(at 58.42 34.29 0)
+			(uuid "af053935-6624-412c-ab42-d6d98a556641")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1612,9 +954,19 @@
 				(justify right)
 			)
 		)
-		(pin "USB_DP1" input
-			(at 58.42 34.29 0)
-			(uuid "d9e359ab-d2fc-4c67-a8f2-cd76ac652166")
+		(pin "USB_DP" input
+			(at 58.42 36.83 0)
+			(uuid "517051ca-4a19-4c94-920b-5a9bce00c036")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_USB" input
+			(at 58.42 31.75 0)
+			(uuid "f0b5cdf0-91c9-4a2e-b471-5b729a128ab6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1664,9 +1016,9 @@
 				(justify left top)
 			)
 		)
-		(pin "USB_DM2" input
-			(at 58.42 53.34 0)
-			(uuid "b3cebd8e-f39e-43e7-82ae-cf54c0b38568")
+		(pin "USB_DM" input
+			(at 58.42 55.88 0)
+			(uuid "1a724747-4b69-4b9b-9a2f-b0f59e9f4b92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,9 +1026,19 @@
 				(justify right)
 			)
 		)
-		(pin "USB_DP2" input
-			(at 58.42 55.88 0)
-			(uuid "a66243ba-0806-4063-bcc2-461f50bb32ed")
+		(pin "USB_DP" input
+			(at 58.42 58.42 0)
+			(uuid "7f93266a-6c8a-4123-8850-a70828e592f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_USB" input
+			(at 58.42 53.34 0)
+			(uuid "25895ca3-1231-483b-8a66-a5364ea69c61")
 			(effects
 				(font
 					(size 1.27 1.27)

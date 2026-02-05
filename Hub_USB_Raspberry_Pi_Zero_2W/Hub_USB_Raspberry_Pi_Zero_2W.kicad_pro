@@ -246,8 +246,14 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "AmpliAudio25",
+      "Myfootprint"
+    ],
+    "pinned_symbol_libs": [
+      "Mylibrary",
+      "AmpliAudio25"
+    ]
   },
   "meta": {
     "filename": "Hub_USB_Raspberry_Pi_Zero_2W.kicad_pro",
