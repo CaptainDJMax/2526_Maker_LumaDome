@@ -3110,7 +3110,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "5a13e149-8436-4cfd-bca9-693c8b721418")
+			(uuid "790c8d5b-afc1-4539-b483-1824ec0eb783")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.105 270)
@@ -3122,7 +3122,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "5a13e149-8436-4cfd-bca9-693c8b721418")
+			(uuid "5877508d-e725-4075-a74c-aa2908f6b69a")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075 270)
@@ -3134,7 +3134,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "5a13e149-8436-4cfd-bca9-693c8b721418")
+			(uuid "2b08c4da-d433-47d6-8b76-b05c929d8754")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
@@ -6443,7 +6443,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "352361e3-84d9-45b8-949b-afe4d792c443")
+			(uuid "d6280a8a-72d2-4753-ae79-805c16424b1b")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.105)
@@ -6455,7 +6455,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "352361e3-84d9-45b8-949b-afe4d792c443")
+			(uuid "957c668f-e149-48c4-aa7a-97eaf1a94e7e")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075)
@@ -6467,7 +6467,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "352361e3-84d9-45b8-949b-afe4d792c443")
+			(uuid "acc6852a-8729-4e4f-bcdd-04a7023737a4")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
@@ -10166,7 +10166,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "440c4153-3932-4fec-a537-1a77243b3dbb")
+			(uuid "20235658-04cf-45a5-bf0e-b6431723b744")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.105)
@@ -10178,7 +10178,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "440c4153-3932-4fec-a537-1a77243b3dbb")
+			(uuid "b48fad68-0af6-4617-87a4-a161e1f19fb7")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075)
@@ -10190,7 +10190,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "440c4153-3932-4fec-a537-1a77243b3dbb")
+			(uuid "4caf3cdb-5fc1-48c2-8e82-47bda5c7e044")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
